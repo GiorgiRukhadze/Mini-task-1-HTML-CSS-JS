@@ -1,0 +1,102 @@
+.conteiner {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: orange;
+}
+.mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+.input {
+  width: 30%;
+  height: 25%;
+  border: 2px solid purple;
+}
+
+.button {
+  width: 10%;
+  height: 25%;
+  border: 2px solid black;
+  font-weight: bolder;
+}
+.listBox {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.secondbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.listP {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.listdiv {
+  width: 250px;
+  height: 200px;
+  background-color: pink;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.input2 {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.button2 {
+  width: 50px;
+  height: 26px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.listItem {
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+}
+
+/*  */
+
+.a {
+  text-decoration: none;
+  /* display: inline-block; */
+  background-color: crimson;
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  margin: left auto;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.del {
+  display: flex;
+  position: absolute;
+  margin-left: 180px;
+  cursor: pointer;
+  font-size: 30px;
+}
